@@ -1,0 +1,439 @@
+Using pre-set license
+Built from '2021.1/staging' branch; Version is '2021.1.21f1 (f2d5d3c59f8c) revision 15914451'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.1415; Version 2009; 64bit' Language: 'da' Physical Memory: 8066 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Users\Tjalfe\Desktop\Unity\2021.1.21f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Tjalfe/BomberMan/BomberManUnityBuild
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+54562
+Successfully changed project path to: C:/Users/Tjalfe/BomberMan/BomberManUnityBuild
+C:/Users/Tjalfe/BomberMan/BomberManUnityBuild
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 144.56 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.21f1 (f2d5d3c59f8c)
+[Subsystems] Discovering subsystems at path C:/Users/Tjalfe/Desktop/Unity/2021.1.21f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Tjalfe/BomberMan/BomberManUnityBuild/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics 620 (ID=0x5917)
+    Vendor:   Intel
+    VRAM:     4033 MB
+    Driver:   27.20.100.8729
+Initialize mono
+Mono path[0] = 'C:/Users/Tjalfe/Desktop/Unity/2021.1.21f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Users/Tjalfe/Desktop/Unity/2021.1.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Users/Tjalfe/Desktop/Unity/2021.1.21f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56080
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Users/Tjalfe/Desktop/Unity/2021.1.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005558 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 115.07 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.354 seconds
+Domain Reload Profiling:
+	ReloadAssembly (6355ms)
+		BeginReloadAssembly (161ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (5ms)
+		EndReloadAssembly (572ms)
+			LoadAssemblies (150ms)
+			RebuildTransferFunctionScriptingTraits (2ms)
+			SetupTypeCache (186ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (290ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (115ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (128ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.014697 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Tjalfe\BomberMan\BomberManUnityBuild\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Tjalfe\BomberMan\BomberManUnityBuild\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 113.82 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.574 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1575ms)
+		BeginReloadAssembly (204ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (1298ms)
+			LoadAssemblies (195ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (407ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (534ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (114ms)
+				BeforeProcessingInitializeOnLoad (100ms)
+				ProcessInitializeOnLoadAttributes (285ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 1.27 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3676 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.2 MB.
+System memory in use after: 136.5 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 4126.
+Total: 14.282600 ms (FindLiveObjects: 0.538600 ms CreateObjectMapping: 0.312000 ms MarkObjects: 12.531700 ms  DeleteObjects: 0.898000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Main Game/Scripts
+  artifactKey: Guid(2e718d9d15cba8143b0e7749163035e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main Game/Scripts using Guid(2e718d9d15cba8143b0e7749163035e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d1128e014e0e6a31471a306bc34f44c') in 0.011576 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.584645 seconds.
+  path: Assets/Main Game/Scripts/Map_Generator.cs
+  artifactKey: Guid(3083fc9ac370a3548a36c0156fbe7b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main Game/Scripts/Map_Generator.cs using Guid(3083fc9ac370a3548a36c0156fbe7b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe253e11fd7478e12c49943daf1c8646') in 0.068540 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006654 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Tjalfe\BomberMan\BomberManUnityBuild\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Tjalfe\BomberMan\BomberManUnityBuild\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.718 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1718ms)
+		BeginReloadAssembly (167ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (50ms)
+		EndReloadAssembly (1477ms)
+			LoadAssemblies (125ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (430ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (108ms)
+			SetupLoadedEditorAssemblies (557ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (125ms)
+				ProcessInitializeOnLoadAttributes (402ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.74 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3667 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 135.8 MB.
+System memory in use after: 136.0 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 4130.
+Total: 3.775600 ms (FindLiveObjects: 0.299300 ms CreateObjectMapping: 0.166100 ms MarkObjects: 3.287500 ms  DeleteObjects: 0.021700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3205.389173 seconds.
+  path: Assets/BombSalandNL-master/bombermania-client/assets/fonts/CooperBlackStd.otf
+  artifactKey: Guid(121185062786cad4da8ecf54cc4960e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BombSalandNL-master/bombermania-client/assets/fonts/CooperBlackStd.otf using Guid(121185062786cad4da8ecf54cc4960e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e0c93883817ec29ce17a7c6d391ba9d') in 0.726981 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000810 seconds.
+  path: Assets/BombSalandNL-master/bombermania-client/assets/sounds/revive.wav
+  artifactKey: Guid(e6f536eb575189a40857e71496e8f1fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BombSalandNL-master/bombermania-client/assets/sounds/revive.wav using Guid(e6f536eb575189a40857e71496e8f1fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '144f80860314f10e5a41607a9c59e687') in 0.211057 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000365 seconds.
+  path: Assets/BombSalandNL-master/bombermania-client/assets/sounds/death.wav
+  artifactKey: Guid(e01befc844b3d384793f91f6047ae502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BombSalandNL-master/bombermania-client/assets/sounds/death.wav using Guid(e01befc844b3d384793f91f6047ae502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da2bb6471dc6df2e94c9c43819f6c976') in 0.033464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000481 seconds.
+  path: Assets/BombSalandNL-master/bombermania-client/assets/spritesheets/ingame.png
+  artifactKey: Guid(11b4193039c0c524f909ac255a07e2aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BombSalandNL-master/bombermania-client/assets/spritesheets/ingame.png using Guid(11b4193039c0c524f909ac255a07e2aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7d0baaea14b860fb03453bfc42eea2a') in 0.082509 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000460 seconds.
+  path: Assets/BombSalandNL-master/bombermania-client/assets/sounds/explosion.wav
+  artifactKey: Guid(deb8bae9131fb274f9f152bd6a811885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BombSalandNL-master/bombermania-client/assets/sounds/explosion.wav using Guid(deb8bae9131fb274f9f152bd6a811885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05fece19b43abfd0f69b06760fbbb511') in 0.036721 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000472 seconds.
+  path: Assets/BombSalandNL-master/bombermania-client/assets/fonts/LuckiestGuy.ttf
+  artifactKey: Guid(211a842cb79120a42887a9db4c47ea2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BombSalandNL-master/bombermania-client/assets/fonts/LuckiestGuy.ttf using Guid(211a842cb79120a42887a9db4c47ea2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '408add486f9f840a01a609c782c88911') in 0.043072 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000564 seconds.
+  path: Assets/BombSalandNL-master/bombermania-client/assets/sounds/pickup.wav
+  artifactKey: Guid(9e902b8024bdb76418cd87c331cf05e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BombSalandNL-master/bombermania-client/assets/sounds/pickup.wav using Guid(9e902b8024bdb76418cd87c331cf05e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f227e33afdce58b05b58fccc2164fcc') in 0.034926 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.822201 seconds.
+  path: Assets/BombSalandNL-master/bombermania-client/assets/textures/background.png
+  artifactKey: Guid(f5160985eec0bdb47857915dc1488b97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BombSalandNL-master/bombermania-client/assets/textures/background.png using Guid(f5160985eec0bdb47857915dc1488b97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5a275518548c743ccf3dfe3a12d6985') in 0.141592 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000400 seconds.
+  path: Assets/BombSalandNL-master/bombermania-client/assets/textures/btn_member.png
+  artifactKey: Guid(de14cf0e3204e9143b8304a8a0db78b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BombSalandNL-master/bombermania-client/assets/textures/btn_member.png using Guid(de14cf0e3204e9143b8304a8a0db78b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58e4fba1d99ba996ece3a43c3d374b73') in 0.053770 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000639 seconds.
+  path: Assets/BombSalandNL-master/bombermania-client/assets/textures/btn_guest.png
+  artifactKey: Guid(c2c4aedaa335d9645b826043b80fdf24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BombSalandNL-master/bombermania-client/assets/textures/btn_guest.png using Guid(c2c4aedaa335d9645b826043b80fdf24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ed426559a91b419af3de1ad56d9e0d6') in 0.066597 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000540 seconds.
+  path: Assets/BombSalandNL-master/bombermania-client/assets/textures/contacts_icon.png
+  artifactKey: Guid(f720807a1642f1745bc3a57037201f13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BombSalandNL-master/bombermania-client/assets/textures/contacts_icon.png using Guid(f720807a1642f1745bc3a57037201f13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd55951e7b496236ba822526ee5f6da51') in 0.044615 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/BombSalandNL-master/bombermania-client/assets/textures/c_center.png
+  artifactKey: Guid(8844c9e5007f60149a60d8de3c3f9912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BombSalandNL-master/bombermania-client/assets/textures/c_center.png using Guid(8844c9e5007f60149a60d8de3c3f9912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '204ee24ecca05377aa3db0acb990f77d') in 0.039279 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000402 seconds.
+  path: Assets/BombSalandNL-master/bombermania-client/assets/textures/soundoff.png
+  artifactKey: Guid(5fcaa88332ac92d41b316ffb9d4ff018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BombSalandNL-master/bombermania-client/assets/textures/soundoff.png using Guid(5fcaa88332ac92d41b316ffb9d4ff018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34c3c37c2538fc37b45caf110611b7f9') in 0.036682 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000505 seconds.
+  path: Assets/BombSalandNL-master/bombermania-client/assets/textures/soundon.png
+  artifactKey: Guid(2f7f27f43d845ba4aad2f481dae7a810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BombSalandNL-master/bombermania-client/assets/textures/soundon.png using Guid(2f7f27f43d845ba4aad2f481dae7a810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7de877c10a07ed36b75c1ae0f13563ea') in 0.038674 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000432 seconds.
+  path: Assets/BombSalandNL-master/bombermania-client/assets/textures/donate_icon.png
+  artifactKey: Guid(cfcfee1b3e621364e9407f9c573defdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BombSalandNL-master/bombermania-client/assets/textures/donate_icon.png using Guid(cfcfee1b3e621364e9407f9c573defdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69ea2e80756ab94be6de63b9b247def1') in 0.038612 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000752 seconds.
+  path: Assets/BombSalandNL-master/bombermania-client/assets/textures/c_right.png
+  artifactKey: Guid(9919efb81ff0133488d280505e85f2b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BombSalandNL-master/bombermania-client/assets/textures/c_right.png using Guid(9919efb81ff0133488d280505e85f2b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f929370d9f4376ff4cdf60a851e9118') in 0.046195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000590 seconds.
+  path: Assets/BombSalandNL-master/bombermania-client/assets/textures/c_left.png
+  artifactKey: Guid(75d828edb6dd10a4cb1dda43a228486b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BombSalandNL-master/bombermania-client/assets/textures/c_left.png using Guid(75d828edb6dd10a4cb1dda43a228486b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a2eb7be6c166e06857b9165a561b18f') in 0.044031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000543 seconds.
+  path: Assets/BombSalandNL-master/bombermania-client/assets/textures/btn_member_over.png
+  artifactKey: Guid(5fde8ae9a590f3544b60bfb09aee682b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BombSalandNL-master/bombermania-client/assets/textures/btn_member_over.png using Guid(5fde8ae9a590f3544b60bfb09aee682b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '127f70dc39c169711924c67aa1f8a820') in 0.039428 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000584 seconds.
+  path: Assets/BombSalandNL-master/bombermania-client/assets/textures/reg.png
+  artifactKey: Guid(3683d76ce309b9642aab714c5ce5b822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BombSalandNL-master/bombermania-client/assets/textures/reg.png using Guid(3683d76ce309b9642aab714c5ce5b822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fefa3bb617f49f8042a96bad47e4d92b') in 0.043994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000668 seconds.
+  path: Assets/BombSalandNL-master/bombermania-client/assets/textures/btn_community_over.png
+  artifactKey: Guid(725f52dd49c82e74c8099bdeee7b57e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BombSalandNL-master/bombermania-client/assets/textures/btn_community_over.png using Guid(725f52dd49c82e74c8099bdeee7b57e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93572381775a5d2d4585aea63eede93c') in 0.061549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001017 seconds.
+  path: Assets/BombSalandNL-master/bombermania-client/assets/textures/btn_community.png
+  artifactKey: Guid(dee1dc3d7237ad144aca357a423c1a93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BombSalandNL-master/bombermania-client/assets/textures/btn_community.png using Guid(dee1dc3d7237ad144aca357a423c1a93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd443634a7dc934b2ea7be2ca2474615c') in 0.070037 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001015 seconds.
+  path: Assets/BombSalandNL-master/bombermania-client/assets/textures/guest.png
+  artifactKey: Guid(baf0c55b5857e114abd841540c5de5e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BombSalandNL-master/bombermania-client/assets/textures/guest.png using Guid(baf0c55b5857e114abd841540c5de5e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b27981d39c0b6a8b687888b52c81a22a') in 0.078298 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001001 seconds.
+  path: Assets/BombSalandNL-master/bombermania-client/assets/textures/header.png
+  artifactKey: Guid(043d11794ccdde5418bda2129e90f407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BombSalandNL-master/bombermania-client/assets/textures/header.png using Guid(043d11794ccdde5418bda2129e90f407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abc44b466ad1ea7cbf8618e0547fa383') in 0.067650 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000993 seconds.
+  path: Assets/BombSalandNL-master/bombermania-client/assets/textures/btn_guest_over.png
+  artifactKey: Guid(571d9fd53b2f4934aa8ddaec9a579832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BombSalandNL-master/bombermania-client/assets/textures/btn_guest_over.png using Guid(571d9fd53b2f4934aa8ddaec9a579832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97943f84bf6f4fe540bdb110fa18abcb') in 0.067810 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000916 seconds.
+  path: Assets/BombSalandNL-master/bombermania-client/assets/textures/footer.png
+  artifactKey: Guid(a16a18a42c265af42a8e29754f49bfb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BombSalandNL-master/bombermania-client/assets/textures/footer.png using Guid(a16a18a42c265af42a8e29754f49bfb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cfc6222e7a9b33c62f00d0309f583b9') in 0.085812 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.616025 seconds.
+  path: Assets/BombSalandNL-master/bombermania-client/data/maps/default.json
+  artifactKey: Guid(ad74c95dd2ae85f43bc3e2f3e3c68ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BombSalandNL-master/bombermania-client/data/maps/default.json using Guid(ad74c95dd2ae85f43bc3e2f3e3c68ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '548677280bca16d18fabfabad3cf026d') in 0.043622 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.760514 seconds.
+  path: Assets/BombSalandNL-master/bombermania-client/plugins/orange-games/phaser-nineslice/example/images/atlas.png
+  artifactKey: Guid(47dab29f1ec4b3849a8a532619ac8776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BombSalandNL-master/bombermania-client/plugins/orange-games/phaser-nineslice/example/images/atlas.png using Guid(47dab29f1ec4b3849a8a532619ac8776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd4afeeea6bc421197f43b3f3d22c84a') in 0.103687 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001278 seconds.
+  path: Assets/BombSalandNL-master/bombermania-client/plugins/orange-games/phaser-nineslice/example/images/image.png
+  artifactKey: Guid(18ae7a5b33d73fb4bab493b26488c2b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BombSalandNL-master/bombermania-client/plugins/orange-games/phaser-nineslice/example/images/image.png using Guid(18ae7a5b33d73fb4bab493b26488c2b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea02dc0d6c40101595c645fe82ed47d0') in 0.064713 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000918 seconds.
+  path: Assets/BombSalandNL-master/bombermania-client/plugins/orange-games/phaser-nineslice/example/images/inputfield.png
+  artifactKey: Guid(e236225811418ed4890b450f693d2c79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BombSalandNL-master/bombermania-client/plugins/orange-games/phaser-nineslice/example/images/inputfield.png using Guid(e236225811418ed4890b450f693d2c79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0321d52ba1768dc0b898832aa936b560') in 0.062214 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000923 seconds.
+  path: Assets/BombSalandNL-master/bombermania-client/plugins/orange-games/phaser-nineslice/example/images/btn_clean.png
+  artifactKey: Guid(26a65ba5ba651e64abb8340178b0bbd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BombSalandNL-master/bombermania-client/plugins/orange-games/phaser-nineslice/example/images/btn_clean.png using Guid(26a65ba5ba651e64abb8340178b0bbd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd551fe307c1d0c91cac74b4d4e6fca37') in 0.072505 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.923906 seconds.
+  path: Packages/com.unity.2d.spriteshape/Editor/ObjectMenuCreation/DefaultAssets/Sprite Shapes/Closed Sprite Shape.prefab
+  artifactKey: Guid(c0583b4e855c74b8c82e7b9b5efb5ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.spriteshape/Editor/ObjectMenuCreation/DefaultAssets/Sprite Shapes/Closed Sprite Shape.prefab using Guid(c0583b4e855c74b8c82e7b9b5efb5ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0cee1f6a4d20f915ea7bacbda781593') in 0.164669 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000470 seconds.
+  path: Packages/com.unity.2d.spriteshape/Editor/ObjectMenuCreation/DefaultAssets/Sprite Shapes/Open Sprite Shape.prefab
+  artifactKey: Guid(86ae7de409eb54f619fb1328e4d42480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.spriteshape/Editor/ObjectMenuCreation/DefaultAssets/Sprite Shapes/Open Sprite Shape.prefab using Guid(86ae7de409eb54f619fb1328e4d42480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92283de4c73fc62e1fe8e1d0c844c407') in 0.036116 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.780417 seconds.
+  path: Assets/BombSalandNL-master/bombermania-client/src/modules/ui/menu/LoginContent.js
+  artifactKey: Guid(3f769d34a4c6c174f950ef451ddede20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BombSalandNL-master/bombermania-client/src/modules/ui/menu/LoginContent.js using Guid(3f769d34a4c6c174f950ef451ddede20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d55ae9850f1257fcb1623ad8fd1f008') in 0.090884 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.758591 seconds.
+  path: Assets/BombSalandNL-master/bombermania-client/src/modules/ui/menu/LowerMenu.js
+  artifactKey: Guid(8ec53d346c9fed5468732d9cac31e2b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BombSalandNL-master/bombermania-client/src/modules/ui/menu/LowerMenu.js using Guid(8ec53d346c9fed5468732d9cac31e2b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91b5adef6ac165e9f53680572579c1fa') in 0.077375 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.074052 seconds.
+  path: Assets/BombSalandNL-master/bombermania-client/src/modules/ui/menu/RegisterContent.js
+  artifactKey: Guid(a45b5e444cc60984eba15845aabcfb84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BombSalandNL-master/bombermania-client/src/modules/ui/menu/RegisterContent.js using Guid(a45b5e444cc60984eba15845aabcfb84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd13b7e4a3237a42ed2ba4e4ef466e956') in 0.056880 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.607622 seconds.
+  path: Assets/BombSalandNL-master/bombermania-client/src/modules/ui/menu/RequestsContent.js
+  artifactKey: Guid(4e2d36f59b8f85c4eb44fa1f36aa308e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BombSalandNL-master/bombermania-client/src/modules/ui/menu/RequestsContent.js using Guid(4e2d36f59b8f85c4eb44fa1f36aa308e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a214c56edc6f42f52bcedb988939fd70') in 0.033490 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.568563 seconds.
+  path: Assets/BombSalandNL-master/bombermania-client/src/modules/ui/menu/FriendsContent.js
+  artifactKey: Guid(799afe3c6f4584947873302974d2f230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BombSalandNL-master/bombermania-client/src/modules/ui/menu/FriendsContent.js using Guid(799afe3c6f4584947873302974d2f230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6752229e18f12b48ce689f131e027674') in 0.030265 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.293835 seconds.
+  path: Assets/BombSalandNL-master
+  artifactKey: Guid(e26b8fbfb3e12ee49a5999d7fadf51c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BombSalandNL-master using Guid(e26b8fbfb3e12ee49a5999d7fadf51c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd50d4e23bc4046333306cf642d763f84') in 0.058027 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.521917 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68a4034d3d715da871e781da702f0bc5') in 0.010815 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
